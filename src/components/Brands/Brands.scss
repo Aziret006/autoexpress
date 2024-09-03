@@ -1,0 +1,28 @@
+.brands_all {
+    margin-top: 80px;
+    .brands_text {
+        h5 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+    .brands_grid {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: 7fr 7fr 7fr 7fr 7fr 7fr 7fr;
+        row-gap: 16px;
+        @media (max-width: 1280px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            @media (max-width: 960px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                @media (max-width: 750px) {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+        }
+    }
+}

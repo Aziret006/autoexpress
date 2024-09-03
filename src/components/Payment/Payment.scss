@@ -1,0 +1,15 @@
+.Pay_Dgrid {
+    .pay_text {
+        h3 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+    .grid_tepleis {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

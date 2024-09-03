@@ -1,0 +1,12 @@
+
+    .flex_all_user {
+        margin: 80px 0 80px 0;
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 1480px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+

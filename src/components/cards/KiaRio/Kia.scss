@@ -1,0 +1,96 @@
+.discount_block {
+    width: 290px;
+    height: 412px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+    .title_button_flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+        }
+        button {
+            width: 126px;
+            height: 24px;
+            padding: 4px 16px 4px 16px;
+            border-radius: 8px;
+            border: 1px solid #36da82;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: left;
+            color: #b0b0b0;
+        }
+    }
+    .flex_box {
+        display: flex;
+        width: 166px;
+        justify-content: space-between;
+        h4 {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+            span {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                text-align: left;
+            }
+        }
+    }
+    .price_and_btn {
+        width: 250px;
+        height: 72px;
+        margin: 20px 0 0 0;
+        h3 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: #ff8b00;
+        }
+        h5 {
+            padding: 12px 0 0 0;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: end;
+            span {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+                text-align: left;
+            }
+        }
+    }
+    .button{
+            width: 250px;
+            height: 44px;
+            padding: 12px 20px 12px 20px;
+            border-radius: 12px;
+            background: #ff8b00;
+            border: none;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+            color: #ffff;
+    }
+    img{
+        margin: 20px 0 20px 0;
+    }
+}

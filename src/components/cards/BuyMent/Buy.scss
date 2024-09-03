@@ -1,0 +1,197 @@
+.pay_item {
+    margin: 40px 0 0 0;
+    display: grid;
+    row-gap: 20px;
+    width: 290px;
+    height: 468px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+    h2 {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+    }
+    .payment_checkbox_grid {
+        display: grid;
+        row-gap: 12px;
+        .payment_checkbox {
+            display: flex;
+            gap: 5px;
+            p {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: left;
+            }
+        }
+    }
+    .buy_pay {
+        display: grid;
+        row-gap: 12px;
+        h2 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: #ff8b00;
+        }
+        p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: end;
+            span {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 16px;
+            }
+        }
+    }
+    button {
+        width: 250px;
+        height: 44px;
+        padding: 12px 20px 12px 20px;
+        border-radius: 12px;
+        background: #ff8b00;
+        border: none;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        color: #ffff;
+    }
+}
+.button_modal {
+    max-width: 1480px;
+    width: 100%;
+    height: 100%;
+    .modal_back {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000000;
+        opacity: 0.7;
+        z-index: 50;
+    }
+    .modal_context {
+        position: fixed;
+        left: 430px;
+        top: 50px;
+        height: 100%;
+        width: 100%;
+        background: #ffff;
+        border-radius: 40px;
+        z-index: 50;
+        width: 640px;
+        height: 620px;
+        border-radius: 40px;
+        opacity: 0px;
+        .modal_title {
+            padding: 40px 0px 0px 0px;
+            .plus {
+                width: 20px;
+                height: 20px;
+                margin-left: auto;
+                margin-right: 20px;
+                margin-top: -10px;
+            }
+            h3 {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: center;
+            }
+            h5 {
+                padding: 24px 0 8px 0;
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 20px;
+                text-align: center;
+                span {
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #ff8b00;
+                }
+            }
+            h6 {
+                padding: 0;
+                display: flex;
+                gap: 5px;
+                justify-content: center;
+                align-items: center;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: center;
+                span {
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 16px;
+                    text-align: center;
+                }
+                p {
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    color: #ff8b00;
+                }
+            }
+            .img {
+                display: flex;
+                justify-content: center;
+            }
+            .title_buy {
+                margin-top: 10px;
+                display: grid;
+                row-gap: 8px;
+                h6{
+                        span {
+                            font-family: Roboto;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #ff8b00;
+                        }
+                }
+                h4 {
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-align: center;
+                    span {
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #ff8b00;
+                    }
+                }
+            }
+        }
+    }
+}

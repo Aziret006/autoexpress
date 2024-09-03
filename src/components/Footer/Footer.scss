@@ -1,0 +1,115 @@
+.footer_back {
+    width: 100%;
+    height: 350px;
+    background: #303030;
+    background-size: cover;
+    margin-top: 80px;
+    .selects {
+        margin: 12px 0 32px 0;
+        width: 40px;
+        height: 4px;
+        border-radius: 2px;
+        background: #36da82;
+    }
+    .footer_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1330px;
+        padding: 40px 0 0 0;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 962px;
+
+            li {
+                list-style: none;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 16px;
+                text-align: left;
+                color: #ffff;
+                // width: 120px;
+                // height: 16px;
+                // gap: 0px;
+            }
+        }
+    }
+    .footer_border {
+        width: 100%;
+        height: 1px;
+        border: 1px solid #545454;
+        margin: 40px 0 40px 0;
+    }
+    .catalock {
+        h1 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #ffff;
+            text-transform: uppercase;
+        }
+        .selects {
+            margin: 12px 0 32px 0;
+            width: 40px;
+            height: 4px;
+            border-radius: 2px;
+            background: #36da82;
+        }
+    }
+    .grid_marka {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+        li {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            color: #b0b0b0;
+            text-transform: uppercase;
+        }
+        .grid_gap {
+            display: grid;
+            row-gap: 16px;
+        }
+    }
+    .contact {
+        h1 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #ffff;
+        }
+        .info {
+            display: grid;
+            width: 233px;
+            height: 112px;
+            .iconka_text {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                li {
+                    list-style: none;
+                    color: #ffff;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    text-align: start;
+                }
+                .iconkans {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+    .flex_grid_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}

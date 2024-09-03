@@ -1,0 +1,33 @@
+.brands_text_img {
+    width: 169px;
+    height: 104px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    display: grid;
+    justify-content: center;
+    row-gap: 12px;
+    @media (max-width: 570px) {
+        width: 106px;
+        height: 82px;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 36px;
+        height: 36px;
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        @media(max-width: 570px){
+             font-size: 14px;
+             line-height: 14px;
+        }
+    }
+}
